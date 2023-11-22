@@ -1,47 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
-    background-image: linear-gradient(to right, aqua, white, aqua);  ;
-}
-/* /////////////////////////////////////////// */
-/* HEADER SECTION */
-header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    /* padding: 0 25%; */
-}
-
-h1 {
-    font-size: 48px;
-}
-
-.title-gif {
-    height: 200px;
-    width: 200px;
-}
-
-marquee {
-    align-content: center;
-}
-
-/* //////////////////////////////////////////////////////////// */
-/* MAIN SECTION */
-
-
-main {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-table, th, td{
-    border: 1px solid black;
-}
-
-th, td {
-    padding: 1em;
+    background-image: url(/homepage-media/twinklestars.gif);
 }
 
 .section-flex-column {
@@ -59,19 +19,64 @@ th, td {
     margin-bottom: 1em;
     justify-content: space-evenly;
 }
-
-
-
-
-
-/* ////////////////////////////////////////// */
-/* footer */
-footer {
-    /* position: fixed; */
-    left: 0;
-    bottom: 0;
+/* /////////////////////////////////////////// */
+/* HEADER SECTION */
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     width: 100%;
-    text-align: center;
+    color: white;
+    /* padding: 0 25%; */
+}
+
+h1 {
+    font-size: 48px;
+}
+
+.title-gif {
+    height: 200px;
+    width: 200px;
+}
+
+marquee {
+    align-content: center;
+}
+
+/* //////////////////////////////////////////////////////////// */
+.main-flex {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1em;
+}
+
+.box-title {
+    margin: 0 5% 0 5%;
+    height: 60px;
+    background-color: #fdfdfd;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.box-title-text {
+    padding: 0.5em;
+    
+}
+.box-body {
+    margin: 0 5% 0 5%;
+    padding: 0.5em;
+    background-color: #FFCCFF;
+
+    display: flex;
+    flex-direction: column;
 }
 
 
+.no-margin {
+    margin: 0;
+}
